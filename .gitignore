@@ -1,0 +1,12 @@
+# Dependencias
+node_modules/
+
+# Carpetas de Parcel (Generadas automáticamente)
+.parcel-cache/
+dist/
+
+# Archivos del sistema y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
