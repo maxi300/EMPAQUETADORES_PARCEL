@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --port 3000",
-    "build": "parcel build",
+    "build": "parcel build src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
